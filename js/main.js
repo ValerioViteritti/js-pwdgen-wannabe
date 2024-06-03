@@ -13,6 +13,6 @@ let ColorUser = prompt("Inserisci il tuo colore preferito");
 
 let passGenerator = nameUser + SurnameUser + ColorUser + "23";
 
-console.log(nameUser + SurnameUser + ColorUser + "23");
+console.log("La tua password generata è " + passGenerator);
 
 document.getElementById("PassGenerator").innerHTML = "La tua password generata è " + passGenerator;
